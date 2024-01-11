@@ -1,19 +1,25 @@
-favicon: /img/favicon.png
+# favicon: /img/favicon.ico
+favicon: /img/rui-lab.ico
 # Change to your profile picture
 avatar: /img/avatar.jpg
 # if author sets in hexo_config, this string doesn't work
-author: 'Jason'
-author_bio: 'Your biography can be writed down here.'
-
+author: 'Rui CAO, Ray'
+# author_bio: 'RAP @PolyU'
+# author_bio: 'Research_Assistant_Professor @HongKongPolyU'
+author_bio: 'Assistant_Professor @HKUST(GZ)'
 since: 2020
 
 # Top Menu 顶部菜单
 # #title 为页内跳转，单页模式
 # 可以选择外链或其他页面
 menu:
-  Publications: /#Publications
-  About: /
-  Blog: https://phower.me
+  HOME: /
+  # GROUP: /group/
+  RESEARCH: /research/
+  # BLOG: /blog/
+  ABOUT: /about/
+  # PUBLICATIONS: /publications/
+  #PROJECTS: /projects/
 
 # flink picture will load if avator link calls on error
 loading_bg:
@@ -25,28 +31,42 @@ loading_bg:
 social:
   enable: true
 social_links:
-  fab fa-twitter: /
-  fab fa-facebook-square: /
-  fab fa-github: /
-  fab fa-stack-overflow: /
-  fab fa-linkedin: /
-  fab fa-weibo: /
-  fab fa-weixin: /
-  fab fa-qq: /
-  fas fa-envelope: / #E-mail
-  fas fa-rss: /  #rss
+        # fas fa-envelope: mailto:rucao@polyu.edu.hk #E-mail
+        # fas fa-envelope: mailto:rcao@outlook.com #E-mail
+        fas fa-envelope: mailto:ruicao@hkust-gz.edu.cn #E-mail
+        fab fa-twitter: https://twitter.com/icaoray
+        ai ai-orcid-square: https://orcid.org/0000-0002-1440-4175
+        ai ai-researchgate-square: https://www.researchgate.net/profile/Rui_Cao54
+        ai ai-google-scholar-square: https://scholar.google.com/citations?user=Goj1ZjsAAAAJ
+        fas fa-link: https://rui-lab.netlify.com 
+        # fab fa-linkedin: https://www.linkedin.com/in/rui-cao-0ba805a2/
+        #  fab fa-facebook-square: /
+        #  fab fa-github: /
+        #  fab fa-stack-overflow: /
+        #  fab fa-weibo: /
+        #  fab fa-weixin: /
+        #  fab fa-qq: /
+        #  fas fa-rss: /  #rss
 
 # Additional social_links，额外添加自定义链接，可显示链接名称
 # name: url || icon_name
 e_social:
   enable: true
 e_social_links:
-  Google Scholar: / || fas fa-graduation-cap
-  ORCID: / || fab fa-orcid
+  # Google Scholar: https://scholar.google.com/citations?user=Goj1ZjsAAAAJ || ai ai-google-scholar-square
+  # ResearchGate: https://www.researchgate.net/profile/Rui_Cao54 || ai ai-researchgate-square
+  #Publons: https://publons.com/researcher/3563587/rui-cao/ || ai ai-publons-square
+  # ORCID: https://orcid.org/0000-0002-1440-4175 || ai ai-orcid-square
+  #  E-mail: mailto:rcao@outlook.com || fas fa-envelope
+  RUI Research Group: https://rui-lab.netlify.com || fas fa-link
+  # UGOD@HKUST(GZ): https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/society-hub/urban-governance-and-design/ || fas fa-link
+  UGOD@HKUST(GZ): https://soch.hkust-gz.edu.cn/academics/ugod/ || fas fa-link
+  LSGI@HongKongPolyU: https://www.polyu.edu.hk/lsgi/ || fas fa-link
+  SCRI@HongKongPolyU: https://www.polyu.edu.hk/scri/ || fas fa-link
 
 # CV download link
 cv_dl:
-  enable: true
+  enable: false
   dir: /attaches/CV.pdf
   description: My Detail CV.
 
@@ -63,7 +83,11 @@ CDN_USE:
     - /css/index.css
 #    - https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css
     - https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.13.0/css/all.min.css # fontawesome 5
+    - https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css
+#    - https://unpkg.com/leaflet@1.6.0/dist/leaflet.css
   js:
     - https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js #/js/third-party/jquery.min.js
     - https://cdn.jsdelivr.net/npm/jquery-pjax@latest/jquery.pjax.min.js
     - /js/main.js
+#    - https://unpkg.com/leaflet@1.6.0/dist/leaflet.js
+ 

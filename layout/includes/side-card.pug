@@ -19,7 +19,7 @@
                         li
                             a.e-social-link(href=url_for(trim(value.split('||')[0])) target="_blank")
                                 i(class=trim(value.split('||')[1]) aria-hidden="true")
-                                span= name
+                                span= " " + name
         if(theme.cv_dl.enable)
             a.cv-links(href=url_for(theme.cv_dl.dir) target="_blank")
                 i(class="fas fa-file-pdf" aria-hidden="true")

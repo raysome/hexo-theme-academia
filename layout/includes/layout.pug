@@ -4,7 +4,7 @@ html(lang=config.language)
         meta(charset='UTF-8')
         meta(http-equiv="X-UA-Compatible" content="IE=edge")
         meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5")
-        title=config.title
+        title=config.title.toUpperCase()
         meta(name="author" content=config.author)
         !=favicon_tag(config.favicon || theme.favicon || '/favicon.ico')
         each item in theme.CDN_USE.css
