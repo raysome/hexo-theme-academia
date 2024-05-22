@@ -38,7 +38,7 @@ social_links:
         ai ai-orcid-square: https://orcid.org/0000-0002-1440-4175
         ai ai-researchgate-square: https://www.researchgate.net/profile/Rui_Cao54
         ai ai-google-scholar-square: https://scholar.google.com/citations?user=Goj1ZjsAAAAJ
-        fas fa-link: https://rui-lab.netlify.com 
+        fas fa-link: https://rui-lab.netlify.app
         # fab fa-linkedin: https://www.linkedin.com/in/rui-cao-0ba805a2/
         #  fab fa-facebook-square: /
         #  fab fa-github: /
@@ -58,11 +58,11 @@ e_social_links:
   #Publons: https://publons.com/researcher/3563587/rui-cao/ || ai ai-publons-square
   # ORCID: https://orcid.org/0000-0002-1440-4175 || ai ai-orcid-square
   #  E-mail: mailto:rcao@outlook.com || fas fa-envelope
-  RUI Research Group: https://rui-lab.netlify.com || fas fa-link
+  RUI Lab: https://rui-lab.netlify.com || fas fa-link
   # UGOD@HKUST(GZ): https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/society-hub/urban-governance-and-design/ || fas fa-link
   UGOD@HKUST(GZ): https://soch.hkust-gz.edu.cn/academics/ugod/ || fas fa-link
-  LSGI@HongKongPolyU: https://www.polyu.edu.hk/lsgi/ || fas fa-link
-  SCRI@HongKongPolyU: https://www.polyu.edu.hk/scri/ || fas fa-link
+  # LSGI@HongKongPolyU: https://www.polyu.edu.hk/lsgi/ || fas fa-link
+  # SCRI@HongKongPolyU: https://www.polyu.edu.hk/scri/ || fas fa-link
 
 # CV download link
 cv_dl:
